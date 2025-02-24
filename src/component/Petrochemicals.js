@@ -158,11 +158,11 @@ const OverviewCard = () => {
         )}
 
         {/* Energy Text */}
-        <div className="flex justify-center items-center h-full absolute top-0 left-0 w-full">
-          <h1 className="text-white text-5xl font-bold relative text-center">
-             PETROCHEMICLAS IN BULK
-          </h1>
-        </div>
+        <div className="flex justify-center items-center h-full absolute top-0 left-0 w-full p-4 sm:p-6 md:p-8">
+  <h1 className="text-white text-4xl sm:text-5xl md:text-5xl lg:text-5xl font-bold text-center leading-tight">
+    PETROCHEMICALS IN BULK
+  </h1>
+</div>
       </header>
 
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
